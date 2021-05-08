@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algo Déchiffrage Trame", "Algo Déchiffrage Trame.csproj", "{3646FB71-373C-4226-91F8-EEEAB3E5214D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3646FB71-373C-4226-91F8-EEEAB3E5214D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3646FB71-373C-4226-91F8-EEEAB3E5214D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3646FB71-373C-4226-91F8-EEEAB3E5214D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3646FB71-373C-4226-91F8-EEEAB3E5214D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F765C147-656C-46A6-BAE4-B4FEC47D2A72}
+	EndGlobalSection
+EndGlobal

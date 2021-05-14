@@ -130,17 +130,25 @@ namespace Algo_Déchiffrage_Trame
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    try { if (Matrice[i - 1, j] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 1; }
-                        catch (Exception) { if (i == 0) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 1; }
+                    if (i == 0 || Matrice[i, j] != Matrice[i - 1, j])
+                    {
+                        Matrice_Decode[i, j] += 1;
+                        if (i > 0)
+                            Matrice_Decode[i - 1, j] += 4;
+                    }
 
-                    try { if (Matrice[i, j - 1] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 2; }
-                        catch (Exception) { if (j == 0) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 2; }
+                    if (j == 0 || Matrice[i, j] != Matrice[i, j - 1])
+                    {
+                        Matrice_Decode[i, j] += 2;
+                        if (j > 0)
+                            Matrice_Decode[i, j - 1] += 8;
+                    }
 
-                    try { if (Matrice[i + 1, j] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 4; }
-                        catch (Exception) { if (i == 9) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 4; }
+                    if (i == 9)
+                        Matrice_Decode[i, j] += 4;
 
-                    try { if (Matrice[i, j + 1] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 8; }
-                        catch (Exception) { if (j == 9)  Matrice_Decode[i, j] = Matrice_Decode[i, j] + 8; }
+                    if (j == 9)
+                        Matrice_Decode[i, j] += 8;
 
                     switch (Matrice[i, j])
                     {
@@ -165,7 +173,7 @@ namespace Algo_Déchiffrage_Trame
         }
         static void Main(string[] args)
         {
-            string Fichier = @"D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Algorithme\Algo Déchiffrage Trame - Matrice Carte\Trames\trametest.chiffre"; //adresse fichier avec @;
+            string Fichier = @"C:\Users\admin\Desktop\Projet-CSI-M2104-master\Algo Déchiffrage Trame\trametest.chiffre"; //adresse fichier avec @;
 
             string trame = Trame(Fichier);
 

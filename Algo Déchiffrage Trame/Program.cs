@@ -130,25 +130,17 @@ namespace Algo_Déchiffrage_Trame
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    if (i == 0 || Matrice[i, j] != Matrice[i - 1, j])
-                    {
-                        Matrice_Decode[i, j] += 1;
-                        if (i > 0)
-                            Matrice_Decode[i - 1, j] += 4;
-                    }
+                    try { if (Matrice[i - 1, j] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 1; }
+                        catch (Exception) { if (i == 0) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 1; }
 
-                    if (j == 0 || Matrice[i, j] != Matrice[i, j - 1])
-                    {
-                        Matrice_Decode[i, j] += 2;
-                        if (j > 0)
-                            Matrice_Decode[i, j - 1] += 8;
-                    }
+                    try { if (Matrice[i, j - 1] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 2; }
+                        catch (Exception) { if (j == 0) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 2; }
 
-                    if (i == 9)
-                        Matrice_Decode[i, j] += 4;
+                    try { if (Matrice[i + 1, j] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 4; }
+                        catch (Exception) { if (i == 9) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 4; }
 
-                    if (j == 9)
-                        Matrice_Decode[i, j] += 8;
+                    try { if (Matrice[i, j + 1] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 8; }
+                        catch (Exception) { if (j == 9)  Matrice_Decode[i, j] = Matrice_Decode[i, j] + 8; }
 
                     switch (Matrice[i, j])
                     {
@@ -171,9 +163,67 @@ namespace Algo_Déchiffrage_Trame
                 trame += "|";
             return trame;
         }
+
+        public static void Create_Carte_Clair_File (char[,] Matrice)
+        {
+            string Nom_Fichier = "";
+            Console.Write("Donné un nom au fichier sans espace : ");
+            Nom_Fichier = Console.ReadLine();
+            
+            while (Nom_Fichier.IndexOf(' ') != -1)
+            {
+                Console.Write("Nom de fichier invalide, recommencez : ");
+                Nom_Fichier = Console.ReadLine();
+            }
+
+            string Fichier = @"D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Algorithme\Algo Déchiffrage Trame - Matrice Carte\Cartes Claires - Trames\" + Nom_Fichier + ".clair";
+
+            if (File.Exists(Fichier))
+            {
+                Console.Write("Fichier existant, retapez un nom valide : ");
+                Nom_Fichier = Console.ReadLine();
+            }
+
+            FileStream StreamFichier = new FileStream(Fichier, FileMode.OpenOrCreate);
+            using (StreamWriter Saisi = new StreamWriter(StreamFichier))
+            {
+                for (int i = 0; i < 10; i++){
+                    for (int j = 0; j < 10; j++)
+                    {
+                        Saisi.Write(Matrice[i, j]);
+                    }
+                    Saisi.Write("\n");
+                }
+            }
+        }
+
+        public static void Create_Trame_File (string trame)
+        {
+            string Nom_Fichier = "";
+            Console.Write("Donné un nom au fichier sans espace : ");
+            Nom_Fichier = Console.ReadLine();
+
+            while (Nom_Fichier.IndexOf(' ') != -1)
+            {
+                Console.Write("Nom de fichier invalide, recommencez : ");
+                Nom_Fichier = Console.ReadLine();
+            }
+
+            string Fichier = @"D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Algorithme\Algo Déchiffrage Trame - Matrice Carte\Cartes Claires - Trames\" + Nom_Fichier + ".chiffre";
+
+            if (File.Exists(Fichier))
+            {
+                Console.Write("Fichier existant, retapez un nom valide : ");
+                Nom_Fichier = Console.ReadLine();
+            }
+
+            FileStream StreamFichier = new FileStream(Fichier, FileMode.OpenOrCreate);
+            using (StreamWriter Saisi = new StreamWriter(StreamFichier)) Saisi.Write(trame);
+        }
+
         static void Main(string[] args)
         {
-            string Fichier = @"C:\Users\admin\Desktop\Projet-CSI-M2104-master\Algo Déchiffrage Trame\trametest.chiffre"; //adresse fichier avec @;
+            string Fichier = @"D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Algorithme\Algo Déchiffrage Trame - Matrice Carte\Cartes Claires - Trames\trametest.chiffre";
 
             string trame = Trame(Fichier);
 
@@ -186,6 +236,9 @@ namespace Algo_Déchiffrage_Trame
 
             string trame_out = Convert_To_Trame(Matrice_Chiffre);
             Console.WriteLine(trame_out);
+
+            Create_Carte_Clair_File(Matrice_Carte);
+            Create_Trame_File(trame);
         }
     }
 }

@@ -130,27 +130,28 @@ namespace Algo_Déchiffrage_Trame
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    try { if (Matrice[i - 1, j] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 1; }
-                        catch (Exception) { if (i == 0) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 1; }
-
-                    try { if (Matrice[i, j - 1] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 2; }
-                        catch (Exception) { if (j == 0) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 2; }
-
-                    try { if (Matrice[i + 1, j] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 4; }
-                        catch (Exception) { if (i == 9) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 4; }
-
-                    try { if (Matrice[i, j + 1] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 8; }
-                        catch (Exception) { if (j == 9)  Matrice_Decode[i, j] = Matrice_Decode[i, j] + 8; }
-
-                    switch (Matrice[i, j])
-                    {
-                        case 'M':
-                            Matrice_Decode[i, j] = Matrice_Decode[i, j] + 64;
-                            break;
-                        case 'F':
-                            Matrice_Decode[i, j] = Matrice_Decode[i, j] + 32;
-                            break;
-                    }
+                    if (i == 0) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 1;
+                    else
+                        if (Matrice[i - 1, j] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 1;
+                    else
+                            if (j == 0) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 2;
+                    else
+                                if (Matrice[i, j - 1] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 2;
+                    else
+                                    if (i == 9) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 4;
+                    else
+                                        if (Matrice[i + 1, j] != Matrice[i, j]) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 4;
+                    else
+                                            if (j == 9) Matrice_Decode[i, j] = Matrice_Decode[i, j] + 8;
+                    else switch (Matrice[i, j])
+                        {
+                            case 'M':
+                                Matrice_Decode[i, j] = Matrice_Decode[i, j] + 64;
+                                break;
+                            case 'F':
+                                Matrice_Decode[i, j] = Matrice_Decode[i, j] + 32;
+                                break;
+                        }
                 }
             }
             return Matrice_Decode;

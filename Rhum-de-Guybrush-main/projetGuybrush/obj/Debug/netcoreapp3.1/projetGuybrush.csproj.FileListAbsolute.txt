@@ -1,0 +1,43 @@
+C:\Users\PORTABLE\projetGuybrush\projetGuybrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.csprojAssemblyReference.cache
+C:\Users\PORTABLE\projetGuybrush\projetGuybrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.AssemblyInfoInputs.cache
+C:\Users\PORTABLE\projetGuybrush\projetGuybrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.AssemblyInfo.cs
+C:\Users\PORTABLE\projetGuybrush\projetGuybrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.exe
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.deps.json
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.runtimeconfig.json
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.runtimeconfig.dev.json
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.dll
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.pdb
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.AssemblyInfo.cs
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.dll
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.pdb
+C:\Users\admin\Desktop\projetGuybrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.genruntimeconfig.cache
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.exe
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.deps.json
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.runtimeconfig.json
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.runtimeconfig.dev.json
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.dll
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.pdb
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.AssemblyInfo.cs
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.dll
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.pdb
+C:\Users\admin\Desktop\projetGuybrush\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.genruntimeconfig.cache
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.csprojAssemblyReference.cache
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.AssemblyInfoInputs.cache
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.AssemblyInfo.cs
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.csproj.CoreCompileInputs.cache
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.dll
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.pdb
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.exe
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.deps.json
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.runtimeconfig.json
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.runtimeconfig.dev.json
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.dll
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\bin\Debug\netcoreapp3.1\projetGuybrush.pdb
+U:\Semestre 2\Conception Objet - Clerentin\Projet\Rhum-de-Gibrush\projetGuybrush\obj\Debug\netcoreapp3.1\projetGuybrush.genruntimeconfig.cache

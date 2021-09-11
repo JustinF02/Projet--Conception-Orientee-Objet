@@ -1,0 +1,13 @@
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\bin\Debug\netcoreapp3.1\Rhum de Gibrush.exe
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\bin\Debug\netcoreapp3.1\Rhum de Gibrush.deps.json
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\bin\Debug\netcoreapp3.1\Rhum de Gibrush.runtimeconfig.json
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\bin\Debug\netcoreapp3.1\Rhum de Gibrush.runtimeconfig.dev.json
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\bin\Debug\netcoreapp3.1\Rhum de Gibrush.dll
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\bin\Debug\netcoreapp3.1\Rhum de Gibrush.pdb
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\obj\Debug\netcoreapp3.1\Rhum de Gibrush.csprojAssemblyReference.cache
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\obj\Debug\netcoreapp3.1\Rhum de Gibrush.AssemblyInfoInputs.cache
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\obj\Debug\netcoreapp3.1\Rhum de Gibrush.AssemblyInfo.cs
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\obj\Debug\netcoreapp3.1\Rhum de Gibrush.csproj.CoreCompileInputs.cache
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\obj\Debug\netcoreapp3.1\Rhum de Gibrush.dll
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\obj\Debug\netcoreapp3.1\Rhum de Gibrush.pdb
+D:\Mes_Trucs\DUT Informatique\1ère Année\Semestre 2\Programmation C#\Projet\Rhum de Gibrush\obj\Debug\netcoreapp3.1\Rhum de Gibrush.genruntimeconfig.cache
